@@ -178,7 +178,7 @@ nav.tabs button.on{color:var(--acc)}
 'use strict';
 // ================== окружение ==================
 const tg = window.Telegram && window.Telegram.WebApp;
-const ENC_SEED = "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"; // ваши данные из таблиц, зашифрованы кодом переноса
+const ENC_SEED = "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"; // ваши данные из таблиц, зашифрованы кодом переноса
 const STARTER = {"tz":"Asia/Krasnoyarsk","habits":[],"vitamins":[],"pulse":[{"id":"sleep","name":"Сон, часов","type":"number"},{"id":"energy","name":"Энергия","type":"scale"},{"id":"mood","name":"Настроение","type":"scale"},{"id":"prod","name":"Продуктивность","type":"scale"},{"id":"lesson","name":"Урок дня","type":"text"},{"id":"grat","name":"Благодарность","type":"text"},{"id":"thoughts","name":"Мысли","type":"text"}],"categories":[{"id":"c1","name":"Жильё и коммуналка","plan":0},{"id":"c2","name":"Продукты","plan":0},{"id":"c3","name":"Кафе и доставка","plan":0},{"id":"c4","name":"Транспорт и такси","plan":0},{"id":"c5","name":"Связь и интернет","plan":0},{"id":"c6","name":"Здоровье и аптека","plan":0},{"id":"c7","name":"Красота и уход","plan":0},{"id":"c8","name":"Одежда и обувь","plan":0},{"id":"c9","name":"Дом и быт","plan":0},{"id":"c10","name":"Развлечения","plan":0},{"id":"c11","name":"Подписки","plan":0},{"id":"c12","name":"Подарки близким","plan":0},{"id":"c13","name":"Образование","plan":0},{"id":"c14","name":"Хобби","plan":0},{"id":"c15","name":"Путешествия","plan":0},{"id":"c16","name":"Питомцы","plan":0},{"id":"c17","name":"Кредиты и долги","plan":0},{"id":"c18","name":"Прочее","plan":0}],"sources":[{"id":"s1","name":"Зарплата"},{"id":"s2","name":"Аванс"},{"id":"s3","name":"Подработка"},{"id":"s4","name":"Фриланс"},{"id":"s5","name":"Подарки"},{"id":"s6","name":"Кешбэк и проценты"},{"id":"s7","name":"Продажа вещей"},{"id":"s8","name":"Прочее"}],"savePct":20,"goals":[],"debts":[],"debtPlan":{"firstPay":"","months":12,"paid":{}},"salary":{"gross":0,"tax":0,"dreamPct":10,"start":"","altMonths":18},"reminders":[]};  // стартовые настройки для нового пользователя
 const CLOUD = !!(tg && tg.initData && tg.CloudStorage);
 const DEMO = !CLOUD;
@@ -734,11 +734,12 @@ V.habits = {
 };
 
 // ================== Экран: Финансы ==================
-const FIN_TABS = [['month', 'Месяц'], ['year', 'Год'], ['goals', 'Копилка'], ['debts', 'Долги'], ['salary', 'Зарплата']];
+const FIN_TABS = [['month', 'Месяц'], ['budget', 'Бюджет'], ['year', 'Год'], ['goals', 'Копилка'], ['debts', 'Долги'], ['salary', 'Зарплата']];
 V.fin = {
   async load() {
     if (S.fin === 'month') { const m = S.finMonth; S.tx = await api('GET', `tx?from=${m}-01&to=${m}-31`); }
     else if (S.fin === 'year') S.tx = await api('GET', `tx?from=${S.year}-01-01&to=${S.year}-12-31`);
+    else if (S.fin === 'budget') { S.allTx = await api('GET', 'tx'); S.tx = S.allTx.filter((x) => x.date.startsWith(S.finMonth)); }
     else S.allTx = await api('GET', 'tx');
   },
   draw() {
@@ -776,7 +777,7 @@ FIN.month = () => {
   h += `<div class="card"><div class="kpis">
     ${kpi('↗ Доходы', rub(T.income))}${kpi('↘ Расходы', rub(T.expense))}${kpi('✦ В копилку', rub(T.save))}${kpi('◇ Остаток', `<span class="${T.left < 0 ? 'bad' : ''}">${rub(T.left)}</span>`)}
     ${kpi('◔ Отложено', pc(T.save, T.income) + '%')}${kpi('Потрачено от дохода', pc(T.expense, T.income) + '%')}</div>
-    <button class="btn wide" data-a="txNew">+ Добавить запись</button></div>`;
+    <button class="btn wide" data-a="txNew">+ Добавить запись</button><button class="btn ghost wide" data-a="fin" data-k="budget">Бюджет и прогноз на месяц →</button></div>`;
   // категории
   const fact = {};
   for (const x of list) if (x.type === 'expense') fact[x.category] = (fact[x.category] || 0) + x.amount;
@@ -800,6 +801,181 @@ FIN.month = () => {
   h += `<div class="card"><h3>Записи за месяц<span>${list.length}</span></h3>${list.length ? txRows(list, true) : '<div class="sub">Пока пусто.</div>'}</div>`;
   return h;
 };
+// ================== Бюджет: анализ месяца и прогноз распределения ==================
+const ESSENTIAL = /жиль|комму|аренд|ипот|продукт|транспорт|такси|связь|интернет|здоров|аптек|лекар|питом/i;
+const DEBT_CAT = /кредит|долг|займ|рассроч/i;
+// доля «на жизнь» по умолчанию, если истории расходов ещё нет
+const DEFAULT_W = [[/жиль|комму|аренд/i, 30], [/продукт/i, 22], [/транспорт|такси/i, 8], [/кафе|доставк/i, 6], [/здоров|аптек/i, 5],
+  [/одежд|обув/i, 5], [/красот|уход/i, 4], [/дом|быт/i, 4], [/развлеч/i, 4], [/связь|интернет/i, 3], [/подар/i, 3],
+  [/подписк/i, 2], [/образов/i, 2], [/хобби/i, 2], [/питом/i, 2], [/путешеств/i, 0], [/прочее/i, 3]];
+const defaultW = (name) => { for (const [re, w] of DEFAULT_W) if (re.test(name)) return w; return 2; };
+const r100 = (n) => Math.floor(n / 100) * 100;
+
+function budgetCalc(m) {
+  const s = S.settings, all = S.allTx, t = TODAY();
+  const inMonth = all.filter((x) => x.date.startsWith(m));
+  const T = totals(inMonth);
+  // ---- доход: факт месяца, иначе прогноз по прошлым месяцам или зарплате
+  const prevInc = {};
+  for (const x of all) if (x.type === 'income' && x.date.slice(0, 7) < m) prevInc[x.date.slice(0, 7)] = (prevInc[x.date.slice(0, 7)] || 0) + x.amount;
+  const lastInc = Object.keys(prevInc).sort().slice(-3).map((k) => prevInc[k]);
+  const sal = s.salary || {};
+  const salNet = num(sal.gross) * (1 - num(sal.tax) / 100);
+  let income = T.income, incomeSrc = 'fact';
+  if (S.budgetIncome != null && S.budgetIncome > 0) { income = S.budgetIncome; incomeSrc = 'manual'; }
+  else if (!income) {
+    if (lastInc.length) { income = avg(lastInc); incomeSrc = 'avg'; }
+    else if (salNet) { income = salNet; incomeSrc = 'salary'; }
+  }
+  // ---- 1. долги: платёж по плану (или минимальные, если не хватает)
+  const D = debtInfo();
+  const paidMap = s.debtPlan.paid || {};
+  const paidBefore = sum(Object.entries(paidMap).filter(([k]) => k < m).map(([, v]) => num(v)));
+  const left = Math.max(0, D.total - paidBefore);
+  let monthsLeft = num(s.debtPlan.months) || 12;
+  if (s.debtPlan.firstPay) monthsLeft = Math.max(1, monthsLeft - Math.max(0, monthsBetween(ymOf(s.debtPlan.firstPay) + '-01', m + '-01')));
+  let debtPay = left ? annuity(left, D.rate, monthsLeft) : 0;
+  let debtNote = left ? `по плану закрытия за ${num(s.debtPlan.months) || 12} мес.` : '';
+  if (debtPay > income * 0.5 && D.min) { debtPay = Math.min(debtPay, Math.max(D.min, income * 0.5)); debtNote = 'урезано до половины дохода — минимум по всем долгам ' + rub(D.min); }
+  const debtPaid = num(paidMap[m]) + sum(inMonth.filter((x) => x.type === 'expense' && DEBT_CAT.test(x.category)).map((x) => x.amount));
+  // ---- 2. накопления: % от дохода, делим между целями по «нужно в месяц»
+  const savePool = (income * num(s.savePct)) / 100;
+  const gl = s.goals.filter((g) => g.name).map((g) => {
+    const saved = savedFor(g), target = num(g.target), rest = Math.max(0, target - saved);
+    const ml = g.deadline ? Math.max(1, monthsBetween(m + '-01', g.deadline)) : 12;
+    return { g, need: rest ? rest / ml : 0, rest };
+  }).filter((x) => x.rest > 0);
+  const needSum = sum(gl.map((x) => x.need));
+  const goalRows = gl.map((x) => ({ name: x.g.name, dream: x.g.dream, need: x.need, plan: needSum ? (savePool * x.need) / needSum : savePool / gl.length,
+    fact: sum(inMonth.filter((t2) => t2.type === 'save' && t2.category === x.g.name).map((t2) => t2.amount)) }));
+  const saveFact = T.save;
+  // ---- 3. на жизнь: остаток по категориям, опираясь на прошлые месяцы
+  const living = Math.max(0, income - debtPay - savePool);
+  const histMonths = [...new Set(all.filter((x) => x.type === 'expense' && x.date.slice(0, 7) < m).map((x) => x.date.slice(0, 7)))].sort().slice(-3);
+  const hist = {};
+  for (const x of all) if (x.type === 'expense' && histMonths.includes(x.date.slice(0, 7)) && !DEBT_CAT.test(x.category)) hist[x.category] = (hist[x.category] || 0) + x.amount;
+  const cats = s.categories.filter((c) => c.name && !DEBT_CAT.test(c.name));
+  const extraNames = Object.keys(hist).filter((k) => !cats.some((c) => c.name === k));
+  let mode = histMonths.length ? 'history' : 'default';
+  let rows = cats.map((c) => ({ name: c.name, plan0: num(c.plan), hist: histMonths.length ? (hist[c.name] || 0) / histMonths.length : 0 }))
+    .concat(extraNames.map((k) => ({ name: k, plan0: 0, hist: hist[k] / histMonths.length })));
+  rows.forEach((r) => { r.ess = ESSENTIAL.test(r.name); r.src = r.plan0 ? 'plan' : mode; });
+  const reserveShare = 0.1;
+  if (mode === 'default') {
+    const fixed = sum(rows.map((r) => r.plan0));
+    const pool = Math.max(0, living * (1 - reserveShare) - fixed);
+    const wsum = sum(rows.filter((r) => !r.plan0).map((r) => defaultW(r.name)));
+    rows.forEach((r) => { r.base = r.plan0 || (wsum ? (pool * defaultW(r.name)) / wsum : 0); });
+  } else rows.forEach((r) => { r.base = r.plan0 || r.hist; });
+  // подгоняем под доход: сначала режем необязательные, потом обязательные
+  const baseSum = sum(rows.map((r) => r.base));
+  let short = 0;
+  if (baseSum > living) {
+    const essSum = sum(rows.filter((r) => r.ess).map((r) => r.base));
+    const optSum = baseSum - essSum;
+    if (essSum <= living) { const k = optSum ? (living - essSum) / optSum : 0; rows.forEach((r) => { r.budget = r.ess ? r.base : r.base * k; }); }
+    else { const k = living / essSum; rows.forEach((r) => { r.budget = r.ess ? r.base * k : 0; }); }
+    short = baseSum - living;
+  } else rows.forEach((r) => { r.budget = r.base; });
+  rows.forEach((r) => { r.budget = r100(r.budget); });
+  let free = Math.max(0, living - sum(rows.map((r) => r.budget)));
+  if (short > 0 && free > 0) { // при нехватке остаток от округления — в самую крупную категорию
+    const tgt = [...rows].sort((a, b) => b.budget - a.budget)[0];
+    if (tgt) { tgt.budget += free; free = 0; }
+  }
+  const catBudget = sum(rows.map((r) => r.budget));
+  // ---- факт и темп трат
+  const fact = {};
+  for (const x of inMonth) if (x.type === 'expense' && !DEBT_CAT.test(x.category)) fact[x.category] = (fact[x.category] || 0) + x.amount;
+  rows.forEach((r) => { r.fact = fact[r.name] || 0; });
+  for (const k of Object.keys(fact)) if (!rows.some((r) => r.name === k)) rows.push({ name: k, budget: 0, fact: fact[k], base: 0, src: 'new' });
+  const n = daysIn(m), cur = ymOf(t) === m, past = m < ymOf(t);
+  const dayNo = cur ? parseD(t).getDate() : past ? n : 0;
+  const spent = sum(Object.values(fact));
+  const pace = dayNo ? (spent / dayNo) * n : 0;
+  rows.forEach((r) => { r.proj = cur && dayNo >= 5 ? (r.fact / dayNo) * n : r.fact; });
+  // самый дорогой долг — куда направить свободные деньги
+  const topDebt = [...s.debts].filter((d) => num(d.balance) > 0).sort((a, b) => num(b.rate) - num(a.rate) || num(a.order) - num(b.order))[0];
+  return { m, income, incomeSrc, factIncome: T.income, lastInc, salNet, D, left, debtPay, debtNote, debtPaid, monthsLeft, savePool, goalRows, saveFact,
+    living, rows, mode, histMonths, short, free, catBudget, spent, pace, n, dayNo, cur, past, topDebt, T };
+}
+
+FIN.budget = () => {
+  const m = S.finMonth, B = budgetCalc(m), s = S.settings;
+  let h = `<div class="dnav"><button class="nb" data-a="fmmove" data-n="-1">‹</button><div class="mid"><b>${mTitle(m)}</b><small>Бюджет и прогноз</small></div><button class="nb" data-a="fmmove" data-n="1">›</button></div>`;
+  if (!B.income) {
+    return h + `<div class="card"><div class="empty">Внесите доход за этот месяц — и я распределю его по долгам, накоплениям и категориям.<br>
+      <button class="btn wide" data-a="txNew" data-type="income">+ Внести доход</button></div>
+      <label class="fl" style="margin-top:10px"><span>…или введите ожидаемый доход для прогноза, ₽</span><input class="in" inputmode="decimal" placeholder="например 80000" data-c="bInc"></label></div>`;
+  }
+  const srcText = { fact: 'внесённый доход за месяц', manual: 'введено вручную', avg: `прогноз: средний доход за ${B.lastInc.length} мес.`, salary: 'прогноз: зарплата «чистыми» из вкладки Зарплата' }[B.incomeSrc];
+  // ---- распределение
+  const parts = [
+    { name: 'Долги', v: B.debtPay, c: 'var(--c4)' },
+    { name: 'Накопления', v: B.savePool, c: 'var(--acc)' },
+    { name: 'Расходы', v: B.catBudget, c: 'var(--c2)' },
+    { name: 'Свободно', v: B.free, c: 'var(--c3)' },
+  ].filter((p) => p.v > 0);
+  const tot = sum(parts.map((p) => p.v)) || 1;
+  h += `<div class="card"><h3>Доход для расчёта<span>${rub(B.income)}</span></h3><p class="hint" style="margin-top:-4px">${srcText}</p>
+    <div style="display:flex;height:14px;border-radius:7px;overflow:hidden;margin:8px 0 10px">${parts.map((p) => `<i style="width:${(p.v / tot) * 100}%;background:${p.c}"></i>`).join('')}</div>
+    <div class="kpis">${parts.map((p) => `<div class="kpi"><span><i style="display:inline-block;width:9px;height:9px;border-radius:3px;background:${p.c};margin-right:5px"></i>${p.name}</span><b>${rub(p.v)}</b><span>${pc(p.v, B.income)}% дохода</span></div>`).join('')}</div>
+    ${B.incomeSrc !== 'fact' ? `<label class="fl" style="margin-top:10px"><span>Изменить ожидаемый доход, ₽</span><input class="in" inputmode="decimal" value="${B.incomeSrc === 'manual' ? Math.round(B.income) : ''}" placeholder="${Math.round(B.income)}" data-c="bInc"></label>` : ''}
+    </div>`;
+  // ---- выводы
+  const tips = [];
+  if (B.short > 0) tips.push(`⚠️ Если тратить как в прошлые месяцы, не хватит <b>${rub(B.short)}</b>. Я урезал необязательные категории (кафе, развлечения, одежда и т.п.), обязательные оставил как есть.`);
+  if (B.short > 0 && (num(s.savePct) > 10 || (num(s.debtPlan.months) || 12) < 18)) tips.push(`🔧 Чтобы урезать меньше, можно снизить процент накоплений (сейчас ${num(s.savePct)}%) или растянуть закрытие долгов (сейчас ${num(s.debtPlan.months) || 12} мес.) — Настройки → Общее.`);
+  if (B.free > 0 && B.topDebt && B.mode === 'default') tips.push(`💡 <b>${rub(B.free)}</b> — запас на непредвиденное. Если к концу месяца останется, выгоднее всего внести его на «${esc(B.topDebt.name)}» (${f1(num(B.topDebt.rate))}% годовых).`);
+  else if (B.free > 0 && B.topDebt) tips.push(`💡 Свободно <b>${rub(B.free)}</b>. Выгоднее всего направить их на «${esc(B.topDebt.name)}» (${f1(num(B.topDebt.rate))}% годовых) — это самая дорогая ставка, так меньше переплата.`);
+  else if (B.free > 0) tips.push(`💡 Свободно <b>${rub(B.free)}</b> — можно добавить в копилку или оставить запасом.`);
+  if (B.mode === 'default') tips.push('ℹ️ Расходов за прошлые месяцы пока нет, поэтому категории распределены по типовым долям, 10% оставлено запасом. Со следующего месяца расчёт пойдёт по вашим реальным тратам.');
+  else tips.push(`ℹ️ Категории рассчитаны по среднему за ${B.histMonths.length === 1 ? 'прошлый месяц' : B.histMonths.length + ' прошлых месяца'} (${B.histMonths.map((x) => MS[Number(x.slice(5)) - 1]).join(', ')}). Если у категории задан план в Настройках — берётся план.`);
+  if (B.cur && B.dayNo >= 5 && B.pace > B.catBudget + B.free) tips.push(`📈 При текущем темпе за месяц уйдёт около <b>${rub(B.pace)}</b> — это больше бюджета на ${rub(B.pace - B.catBudget - B.free)}.`);
+  if (B.cur) { const daysLeft = B.n - B.dayNo + 1; const leftMoney = B.catBudget + B.free - B.spent; tips.push(`🗓️ До конца месяца ${daysLeft} дн. Можно тратить примерно <b>${rub(Math.max(0, leftMoney) / daysLeft)}</b> в день.`); }
+  h += `<div class="card"><h3>Выводы</h3>${tips.map((x) => `<div class="row" style="display:block;font-size:14px">${x}</div>`).join('')}</div>`;
+  // ---- долги
+  if (B.left > 0) {
+    h += `<div class="card"><h3>Долги<span>${rub(B.debtPay)}</span></h3><p class="hint" style="margin-top:-4px">${esc(B.debtNote)} · осталось ${rub(B.left)}</p>
+      <div class="flexb"><span>Внесено в этом месяце</span><span class="amt">${rub(B.debtPaid)}</span></div>${bar(pc(B.debtPaid, B.debtPay))}
+      ${B.debtPaid < B.debtPay ? `<small>Осталось внести ${rub(B.debtPay - B.debtPaid)}. Отметить платёж — вкладка «Долги» → «Внесено».</small>` : '<small class="ok">План по долгам на месяц выполнен ✓</small>'}</div>`;
+  }
+  // ---- накопления
+  if (B.savePool > 0) {
+    h += `<div class="card"><h3>Накопления · ${num(s.savePct)}% дохода<span>${rub(B.savePool)}</span></h3>
+      ${B.goalRows.length ? B.goalRows.map((g) => `<div class="row" style="display:block"><div class="flexb"><span>${esc(g.name)}${g.dream ? ' ✨' : ''}</span><span class="amt">${rub(r100(g.plan))}</span></div>
+        ${bar(pc(g.fact, g.plan))}<small>отложено ${rub(g.fact)} · для срока нужно ${rub(g.need)}/мес</small></div>`).join('')
+      : '<div class="sub">Целей нет — добавьте их в Настройках, и я разделю сумму между ними.</div>'}
+      ${B.goalRows.length ? `<button class="btn ghost wide" data-a="txNew" data-type="save">+ Отложить</button>` : ''}</div>`;
+  }
+  // ---- категории
+  const rows = B.rows.filter((r) => r.budget > 0 || r.fact > 0).sort((a, b) => b.budget - a.budget || b.fact - a.fact);
+  h += `<div class="card"><h3>Расходы по категориям<span>${rub(B.spent)} из ${rub(B.catBudget)}</span></h3>
+    ${rows.map((r) => {
+      const over = r.fact > r.budget, projOver = !over && B.cur && r.proj > r.budget * 1.05 && r.budget > 0;
+      const tag = r.src === 'plan' ? 'план' : r.src === 'history' ? (r.base > r.budget + 1 ? `было ${rub(r.base)} → урезано` : 'по прошлым мес.') : r.src === 'new' ? 'нет в бюджете' : 'типовая доля';
+      return `<div class="row" style="display:block"><div class="flexb"><span>${esc(r.name)}</span><span class="amt">${rub(r.fact)}<small class="sub"> / ${rub(r.budget)}</small></span></div>
+        ${bar(r.budget ? pc(r.fact, r.budget) : r.fact ? 100 : 0, over)}
+        <small>${tag}${over ? ` · <span class="bad">перерасход ${rub(r.fact - r.budget)}</span>` : r.budget ? ` · осталось ${rub(r.budget - r.fact)}` : ''}${projOver ? ` · <span style="color:var(--warn)">к концу месяца ≈ ${rub(r.proj)}</span>` : ''}</small></div>`;
+    }).join('')}
+    ${B.free > 0 ? `<div class="note">Не распределено: ${rub(B.free)} — запас или досрочный платёж.</div>` : ''}
+    <p class="hint" style="margin-top:10px">Процент накоплений и срок закрытия долгов меняются в Настройках → Общее. План по категориям — в Настройках → Категории.</p></div>`;
+  // ---- анализ месяца (для прошедшего или текущего)
+  if (B.T.income || B.T.expense) {
+    const prevM = addM(m, -1), pt = totals(S.allTx.filter((x) => x.date.startsWith(prevM)));
+    const top = Object.entries(B.rows.reduce((o, r) => (r.fact ? ((o[r.name] = r.fact), o) : o), {})).sort((a, b) => b[1] - a[1]).slice(0, 3);
+    const cmp = (a, b) => (b && !B.cur ? `${a >= b ? '↑' : '↓'} ${Math.abs(pc(a - b, b))}% к ${MS[Number(prevM.slice(5)) - 1]}` : '');
+    h += `<div class="card"><h3>Анализ месяца${B.cur ? '<span>месяц ещё идёт</span>' : ''}</h3><table class="tb">
+      <tr><td>Доход</td><td>${rub(B.T.income)}</td><td class="sub">${cmp(B.T.income, pt.income)}</td></tr>
+      <tr><td>Расходы</td><td>${rub(B.T.expense)}</td><td class="sub">${cmp(B.T.expense, pt.expense)}</td></tr>
+      <tr><td>Отложено</td><td>${rub(B.T.save)}</td><td class="sub">${pc(B.T.save, B.T.income)}% дохода</td></tr>
+      <tr><td>На долги</td><td>${rub(B.debtPaid)}</td><td class="sub">${B.debtPay ? pc(B.debtPaid, B.debtPay) + '% плана' : ''}</td></tr>
+      <tr class="tot"><td>Остаток</td><td class="${B.T.left < 0 ? 'bad' : ''}">${rub(B.T.left)}</td><td></td></tr></table>
+      ${top.length ? `<div class="note">Больше всего ушло на: ${top.map(([k, v]) => `${esc(k)} — ${rub(v)}`).join(', ')}.</div>` : ''}</div>`;
+  }
+  return h;
+};
+
 FIN.year = () => {
   const y = S.year, s = S.settings, list = S.tx, T = totals(list);
   let h = `<div class="dnav"><button class="nb" data-a="fymove" data-n="-1">‹</button><div class="mid"><b>${y} год</b></div><button class="nb" data-a="fymove" data-n="1">›</button></div>`;
@@ -1075,7 +1251,8 @@ A.hcell = (t) => {
 A.goSet = (t) => { S.open[t.dataset.k] = true; S.tab = 'set'; go(); };
 
 A.fin = (t) => { S.fin = t.dataset.k; go(); };
-A.fmmove = (t) => { S.finMonth = addM(S.finMonth, Number(t.dataset.n)); go(); };
+A.fmmove = (t) => { S.finMonth = addM(S.finMonth, Number(t.dataset.n)); S.budgetIncome = null; go(); };
+C.bInc = (t) => { const v = num(t.value); S.budgetIncome = v > 0 ? v : null; draw(); };
 A.fymove = (t) => { S.year = String(Number(S.year) + Number(t.dataset.n)); go(); };
 A.openFm = (t) => { S.finMonth = t.dataset.m; S.fin = 'month'; go(); };
 A.debtN = (t) => { S.debtN = Number(t.dataset.n); draw(); };
